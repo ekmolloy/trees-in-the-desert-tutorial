@@ -127,7 +127,7 @@ In order to run TreeMerge (Molloy and Warnow, ISMB 2019) use the following comma
     -p software/paup4a165_osx
 ```
 
-If you are using linux or windows, install [NetworkX](https://networkx.github.io) (if necessary), replace `./software/treemerge-osx` with `python software/treemerge.py`. If you are using linux, replace `paup4a165_osx` with `paup4a165_centos64` or `paup4a165_ubuntu64`. If you are using Windows, you should do something special based on the install with `paup4-setup.msi`.
+If you are using linux or windows, install [NetworkX](https://networkx.github.io) version 1.11 (e.g., `pip install 'networkx==1.11' --force-reinstall`), replace `./software/treemerge-osx` with `python software/treemerge.py`. If you are using linux, replace `paup4a165_osx` with `paup4a165_centos64` or `paup4a165_ubuntu64`. If you are using windowns, then install PAUP* with `paup4-setup.msi`.
 
 The **input** options are the same as NJMerge, but you must also provide either the spanning tree for the subsets (or else the starting tree that was used to decompose the species set into subsets) and [PAUP*](http://phylosolutions.com/paup-test/), which is used to estimate branch lengths.
 + `-s [starting tree used to define subsets in newick format]` (see [here](data-cat/nj-on-logdet-tre.txt))
