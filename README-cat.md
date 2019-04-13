@@ -93,10 +93,11 @@ In the fourth step of the divide-and-conquer pipeline, we need to run a DTM meth
 
 ```
 ./software/njmerge-osx \
-    -t data-cat/svdquartets-subset-1-outof-4-tre.txt \
-       data-cat/svdquartets-subset-2-outof-4-tre.txt \
-       data-cat/svdquartets-subset-3-outof-4-tre.txt \
-       data-cat/svdquartets-subset-4-outof-4-tre.txt \
+    -t data-cat/svdquartets-subset-1-outof-5-tre.txt \
+       data-cat/svdquartets-subset-2-outof-5-tre.txt \
+       data-cat/svdquartets-subset-3-outof-5-tre.txt \
+       data-cat/svdquartets-subset-4-outof-5-tre.txt \
+       data-cat/svdquartets-subset-5-outof-5-tre.txt \
     -m data-cat/logdet-mat.txt \
     -o njmerge-on-svdquartets-and-logdet-tre.txt
 ```
@@ -115,10 +116,11 @@ In order to run TreeMerge (Molloy and Warnow, ISMB 2019) use the following comma
 ```
 ./software/treemerge-osx \
     -s data-cat/nj-on-logdet-tre.txt \
-    -t data-cat/svdquartets-subset-1-outof-4-tre.txt \
-       data-cat/svdquartets-subset-2-outof-4-tre.txt \
-       data-cat/svdquartets-subset-3-outof-4-tre.txt \
-       data-cat/svdquartets-subset-4-outof-4-tre.txt \
+    -t data-cat/svdquartets-subset-1-outof-5-tre.txt \
+       data-cat/svdquartets-subset-2-outof-5-tre.txt \
+       data-cat/svdquartets-subset-3-outof-5-tre.txt \
+       data-cat/svdquartets-subset-4-outof-5-tre.txt \
+       data-cat/svdquartets-subset-5-outof-5-tre.txt \
     -m data-cat/logdet-mat.txt \
     -o treemerge-on-svdquartets-and-logdet-tre.txt \
     -w . \
