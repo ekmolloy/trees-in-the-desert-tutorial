@@ -155,7 +155,7 @@ The **output** is also species tree on full taxon set in newick format (see [her
 
 Part V
 ------
-Now that you have an estimated species tree topology on the full taxon set, you may want to estimate branch lengths (in coalescent units) and support. We can do this with ASTRAL [(Sayyari and Mirarab, 2016)](https://academic.oup.com/mbe/article/33/7/1654/2579300) using the following command:
+Now that you have an estimated species tree topology on the full taxon set, you may want to estimate branch lengths (in coalescent units) and support. We can do this with ASTRAL (as described in [Sayyari and Mirarab, 2016](https://academic.oup.com/mbe/article/33/7/1654/2579300)) using the following command:
 
 ```
 java -jar software/Astral/astral.5.6.3.jar \
@@ -169,7 +169,7 @@ The **input** options specify
 + `-q [estimated species tree in newick format]` (see [here](data/njmerge-on-astral-and-agid-tre.txt))
 + `-i [list of estimated gene trees in newick format]` (see [here](data/esti-genes-tre.txt))
 
-The **output** is also species tree on full set of species (in newick format), but with branch lengths and branch support; see [here](data/scored-njmerge-on-astral-and-agid-tre.txt).
+The **output** is also species tree on full set of species in newick format (see [here](data/scored-njmerge-on-astral-and-agid-tre.txt)), but with branch lengths and branch support.
 
 
 In the future, you may want to check out, the ASTRAL [tutorial](https://github.com/smirarab/ASTRAL/blob/master/astral-tutorial.md) or [ASTRAL-MP](https://academic.oup.com/bioinformatics/advance-article/doi/10.1093/bioinformatics/btz211/5418955).
