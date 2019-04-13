@@ -35,7 +35,7 @@ In the first step of the divide-and-conquer pipeline, we need to compute distanc
 We can use [PAUP*](https://paup.phylosolutions.com) to build the log-det matrix with the following command:
 
 ```
-echo  "exe .nex; DSet distance=logdet; SaveDist format=PHYLIP file=logdet-mat.txt triangle=both diagonal=yes;" | ./software/paup4a165_osx -n
+echo  "exe data-cat/cataln.nex; DSet distance=logdet; SaveDist format=PHYLIP file=logdet-mat.txt triangle=both diagonal=yes;" | ./software/paup4a165_osx -n
 ```
 
 If you are using linux, replace `paup4a165_osx` with `paup4a165_centos64` or `paup4a165_ubuntu64`. If you are using Windows, you should do something special based on the install with `paup4-setup.msi`.
