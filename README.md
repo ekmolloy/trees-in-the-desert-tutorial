@@ -33,7 +33,7 @@ into the terminal, and you can see a list of files in this directory by typing
 ```
 ls
 ```
-into the terminal. You should see a folder, called `software`. Now `cd` into this folder, and unzip the software containing ASTRAL using the following commands:
+into the terminal. You should see a folder, called `software`. Now `cd` into this folder, and unzip the folder containing ASTRAL using the following commands:
 ```
 cd software
 unzip Astral.zip
