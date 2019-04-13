@@ -93,6 +93,8 @@ java -jar software/Astral/astral.5.6.3.jar \
     &> astral-subset-1-outof-4-log.txt
 ```
 
+Note that you need to have java installed to run ASTRAL.
+
 The two **input** options specify
 + `-i [list of gene trees on the taxa in subset 1 in newick format]` (see [here](data/esti-genes-subset-1-outof-4-tre.txt); note that this file is just the estimated gene trees used in Part I pruned down to contain only the taxa in subset 1)
 + `-o [output file name]`
