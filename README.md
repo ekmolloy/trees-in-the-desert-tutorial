@@ -18,9 +18,7 @@ In real life, you would need to estimate gene trees and need to think about many
 + whether or not to collapse low support branches in the estimated gene trees [(Zhang et al., 2018)](https://bmcbioinformatics.biomedcentral.com/articles/10.1186/s12859-018-2129-y)
 + whether or not to exclude genes based on estimation error or missing data [(Molloy and Warnow, 2018)](https://academic.oup.com/sysbio/article/67/2/285/4159193)
 
-For this tutorial, we have already estimated gene trees, and you do not worry about these issues.
-
-To begin, you need to clone (or download and unzip) this repository.
+For this tutorial, we have already estimated gene trees, so you do not worry about these issues. To begin, you need to clone (or download and unzip) this repository.
 
 
 Now open a terminal and `cd` into the tutorial repository. For example, if you downloaded the tutorial into your `Downloads` directory, then you would type the following command
