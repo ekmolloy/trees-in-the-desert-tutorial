@@ -1,6 +1,6 @@
 Divide-and-Conquer Pipelines based on Gene Tree Summary Methods
 ===============================================================
-The goal of this tutorial is to get experience using gene tree summary methods ([ASTRID](https://bmcgenomics.biomedcentral.com/articles/10.1186/1471-2164-16-S10-S3) and [ASTRAL](https://bmcbioinformatics.biomedcentral.com/articles/10.1186/s12859-018-2129-y)) in the context of the divide-and-conquer pipeline (shown below) using disjoint tree merger (DTM) methods.
+The goal of this tutorial is to get experience using gene tree summary methods ([ASTRID](https://bmcgenomics.biomedcentral.com/articles/10.1186/1471-2164-16-S10-S3) and [ASTRAL](https://bmcbioinformatics.biomedcentral.com/articles/10.1186/s12859-018-2129-y)) in the context of the divide-and-conquer pipeline shown below.
 
 ![Alt text](images/dtm-pipeline.png)
 
