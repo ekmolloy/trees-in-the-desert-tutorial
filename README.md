@@ -121,8 +121,8 @@ If you are using linux or windows, install [Dendropy](https://dendropy.org) and 
 
 
 The **input** options specify
-+ `-t [subset trees estimated using ASTRAL-III in newick format]` (see [here](data/astral-subset-1-outof-4-tre.txt))
-+ `-m [dissimilarity matrix in phylip format]` (see [here](data/agid-mat.txt))
++ `-t [estimated subset trees in newick format]` (see [here](data/astral-subset-1-outof-4-tre.txt))
++ `-m [estimated dissimilarity matrix in phylip format]` (see [here](data/agid-mat.txt))
 + `-x [list of the names for each row in the dissimilarity matrix]` (see [here](data/agid-mat.txt_taxlist))
 + `-o [output file name]`
 
