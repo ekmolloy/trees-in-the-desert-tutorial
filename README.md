@@ -85,7 +85,7 @@ To simplify this tutorial, we have already performed step 2; note that in the ne
 
 Part III
 --------
-In the third step of the divide-and-conquer pipeline, we need to estimate a species trees on each subset of taxa. We can use [ASTRAL-III](https://bmcbioinformatics.biomedcentral.com/articles/10.1186/s12859-018-2129-y) to estimate a species tree from a set of gene trees (restricted to a subset of the taxa) with the following command:
+In the third step of the divide-and-conquer pipeline, we need to estimate a species trees on each subset of taxa. We can use [ASTRAL-III](https://bmcbioinformatics.biomedcentral.com/articles/10.1186/s12859-018-2129-y) to estimate a species tree from a set of gene trees with the following command:
 ```
 java -jar software/Astral/astral.5.6.3.jar \
     -i data/esti-genes-subset-1-outof-4-tre.txt \
@@ -94,7 +94,7 @@ java -jar software/Astral/astral.5.6.3.jar \
 ```
 
 The two **input** options specify
-+ `-i [list of gene trees on the taxa in subset 1 in newick format]` (see [here](data/esti-genes-subset-1-outof-4-tre.txt))
++ `-i [list of gene trees on the taxa in subset 1 in newick format]` (see [here](data/esti-genes-subset-1-outof-4-tre.txt); note that this file is just the estimated gene trees used in Part I pruned down to contain only the taxa in subset 1)
 + `-o [output file name]`
 
 The **output** is the species tree for the taxa in subset 1 in newick format (see [here](data/astral-subset-1-outof-4-tre.txt)).
