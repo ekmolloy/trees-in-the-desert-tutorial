@@ -80,7 +80,7 @@ Note that the deleted edges in the starting tree define a spanning tree on the s
 ![Alt text](images/decomp-4.png)
 
 
-To simplify this tutorial, we have already performed step 2; note that in the newest versions of NJMerge and TreeMerge being released this month, this step is automated.
+To simplify this tutorial, we have already performed step 2.
 
 
 Part III
